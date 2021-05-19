@@ -5,8 +5,8 @@
 
 Предусмотрен вывод вдух типов страниц: одиночная страница с uri типа ```/contacts``` и категоризированных страниц с uri типа ```\category-name\category-page```
 ### Для добавления одиночной страницы необходимо:
-1. Добавить страницу с контентом в корень ```src\Viwes``` с именем ```pageName.php```
-2. Добавить ключ-значение в массив в файле ```src\Viwes\headerTagsContent.php``` для метатэгов
+1. Добавить страницу с контентом в корень ```src\Views``` с именем ```pageName.php```
+2. Добавить ключ-значение в массив в файле ```src\Views\headerTagsContent.php``` для метатэгов
 В таком виде:
 ```php 
 "pageName" => [
@@ -19,12 +19,12 @@
 ``` "Page name" => "/pageName", ``` при это значение должно совпадать с именем файла в пункте 1
 Сие создаст пункт меню в меню :)
 ### Для добавления категории и страницы этой категории необходимо:
-1. Добавить папку с в ```src\Viwes\categories\``` с именем ```categoryName```, должен получиться ктаалог ```src\Viwes\categories\categoryName```
+1. Добавить папку с в ```src\Views\categories\``` с именем ```categoryName```, должен получиться ктаалог ```src\Views\categories\categoryName```
 2. В получившийся каталог добавляем ```index.php``` - файл индексной нужное количество страниц новой категории вида ```newPageOne.php``` 
-3. Добавить ключ-значение в массив с ключем "categories" в файле ```src\Viwes\headerTagsContent.php``` для метатэгов
+3. Добавить ключ-значение в массив с ключем "categories" в файле ```src\Views\headerTagsContent.php``` для метатэгов
 В таком виде:
 ```php 
-"categoryName" => [ // categoryName - этот ключ должен совпадать с названием директории для новой категории в src\Viwes\categories\
+"categoryName" => [ // categoryName - этот ключ должен совпадать с названием директории для новой категории в src\Views\categories\
         "title" => "categoryName title",
         "description" => "categoryName description",
         "keywords" => "categoryName keywords",
@@ -57,7 +57,7 @@
 **В целом, добавляем по аналогии с исходником.**
 
 ## Шаблоны
-В ```src\Viwes\templates``` лежат шаблоны: 
+В ```src\Views\templates``` лежат шаблоны: 
 ```_menu-template.php``` - вывод меню с минимальным количеством тего, если нужно будет переверстывать,
 ```categoryPageContent.php``` - шаблон для вывода контента категоризированной страницы,
 ```footer.php``` - футер,
