@@ -1,0 +1,103 @@
+a {
+    text-decoration: none;
+    color: #4557c7;
+}
+a:hover {
+    text-decoration: none;
+    color: #7b86cf;
+}
+.nav-pills .nav-link {
+    border-radius: 0 !important;
+}
+.nav-link:hover {
+    background-color: rgb(49, 49, 49) !important;
+}
+.nav-pills .nav-link.active {
+    background-color: rgb(59, 59, 59) !important;
+}
+.all-dark-bg {
+    background-color: rgb(26, 27, 26) !important;
+}
+.logotype {
+    max-width: 466px;
+    max-height: 86px;
+    padding: 0;
+}
+.logotype-opacity-hover:hover {
+    opacity: 0.6;
+}
+.mobile-logotype {
+    max-width: 204px;
+    max-height: 76px;
+    padding: 0;
+}
+.header-background {
+    background-color: #282828 !important;
+}
+.upper-header {
+    background-color: #121516 !important;
+}
+.upper-header-text {
+    font-size: 13px;
+    color: rgb(153, 153, 153);
+    margin: 3px;
+}
+.upper-header-email {
+    margin-right: 5px;
+}
+.header-bottom-border {
+    border-bottom: 3px solid rgb(48, 48, 48);
+    border-top: 3px solid rgb(48, 48, 48);
+}
+body {
+    background-color: rgb(26, 27, 26) !important;
+}
+.navbar-toggler {
+    border: none !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+@media screen and (max-width: 767px) {
+    .navbar {
+        background-color: #282828 !important;
+        border-bottom: 3px solid rgb(78, 78, 78) !important;
+        border-top: 2px solid rgb(48, 48, 48);
+    }
+}
+.class-render {
+    background-color: rgb(230, 230, 230);
+}
+
+.class-render-boreder {
+    border-left: 7px solid rgb(150, 150, 150) !important;
+}
+.executed-code {
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    display: block;
+    word-wrap: break-word;
+    max-width: inherit;
+    color:rgb(68, 30, 30);
+}
+.code-to-execute {
+    color: #245b88;
+}
+.social-link {
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 35px;
+    color: grey;
+}
+.social-link:hover {
+    color: dimgrey;
+}
+
+.contacts-icon {
+    margin-right: 10px;
+    color:dimgrey;
+}

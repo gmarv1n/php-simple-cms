@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^sitemap.xml$ sitemap.xml [L]
+RewriteRule ^robots.txt$ robots.txt [L]
+RewriteRule ^favicon.ico$ favicon.ico [L]
+RewriteRule ^(.*)$ index.php [L]
